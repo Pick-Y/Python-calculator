@@ -48,7 +48,8 @@ def division(n):
         newNum = n.split('/')
         listToSubtract = convertToInt(newNum)
         print(listToSubtract)
-        total=1
+        total=0
+        
 
         for num in listToSubtract:
 
