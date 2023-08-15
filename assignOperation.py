@@ -32,11 +32,14 @@ def subtraction(n):
         newNum = n.split('-')
         listToSubtract = convertToInt(newNum)
         print(listToSubtract)
-        total=0
-
+        total= int
+        num1 = None
+        num2 = None
         for num in listToSubtract:
-
-            total -= num
+            if num1 == None:
+                  num1 = num
+            else: num2 = num
+        total = num1 - num2
         
         return total
 
@@ -45,7 +48,7 @@ def division(n):
         newNum = n.split('/')
         listToSubtract = convertToInt(newNum)
         print(listToSubtract)
-        total=0
+        total=1
 
         for num in listToSubtract:
 
